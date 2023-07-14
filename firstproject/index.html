@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  </head>
+  <body>
+    <section>
+      <div id="wrapper">
+        <img src="img/microsoft.png.png" />
+        <h1>Sign in</h1>
+        <br />
+        <form action="">
+          <input
+            name="signin"
+            autofocus
+            tabindex="1"
+            type="text"
+            value="Email, phone, or Skype"
+            id="signin"
+          />
+          <small class="acc_small"
+            >No account? <a href="#" tabindex="2">Create one</a></small
+          >
+          <a href="#" alt="#" tabindex="3"><small>Can't access your account?</small></a>
+          <div id="buttons">
+            <button class="btn back" tabindex="4">Back</button>
+            <button class="btn next" tabindex="5">Next</button>
+          </div>
+        </form>
+      </div>
+      <div class="innerWrapper">
+        <iconify-icon icon="grommet-icons:key"></iconify-icon>
+        <select name="options" id="options">
+          <option disabled selected value="Google">Sign-in options</option>
+          <option value="email">Email</option>
+          <option value="skype">Skype</option>
+          <option value="phone">Phone</option>
+        </select>
+      </div>
+    </section>
+  </body>
+</html>
