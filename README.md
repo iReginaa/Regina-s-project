@@ -1,4 +1,4 @@
-# Regina-s-project
+# Reginaproject
  This project is for testing purposes
 
  Built with CSS3 and HTML5
